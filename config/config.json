@@ -1,0 +1,11 @@
+{
+    "src":"./resource/output.csv",
+    "node":"http://127.0.0.1:8545",
+    "wallet":{"address":"c4a9a64a9b63bac398552065759b34c9be244bc6","crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"dc2582e44e5934f8162c636eabef1950"},"ciphertext":"f1ce2884b3ff385933c48faa18b7ab95e123b766befccd5f0cf2974355777e5d","kdf":"scrypt","kdfparams":{"dklen":32,"n":262144,"p":1,"r":8,"salt":"aef6149b9a922f2d305ef8b9d9b774aab37a9598f0eff615a7afd79875386071"},"mac":"57172e8e155c4381a6d250ec6e7fc2c54edc970c4f6f27d2bc72de38b38614fd"},"id":"e58a0cf9-af89-4781-8bf3-faf3fc2b7fde","version":3},
+    "timeout":5000,
+    "issuer":"c4a9a64a9b63bac398552065759b34c9be244bc6",
+    "contractAddr":"0xC93243dA5ad92eE87626AdEb2F6202C9cA95eF6E",
+    "contractABI":"./resource/AirDrop.json",
+    "tokenAddr":"0x7Da8470794fD52463956D8deeD55eDec9fA6C662",
+    "privateKey":false
+}

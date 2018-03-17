@@ -1,0 +1,52 @@
+{
+  "appenders": {
+    "console": {
+      "type": "console",
+      "category": "console"
+    },
+    "send": {
+      "type": "file",
+      "filename": "logs/send.log",
+      "alwaysIncludePattern": false,
+      "layout": { "type": "messagePassThrough" },
+      "category": "send"
+    },
+    "recv": {
+      "type": "file",
+      "filename": "logs/recv.log",
+      "alwaysIncludePattern": false,
+      "layout": { "type": "messagePassThrough" },
+      "category": "recv"
+    },
+    "error": {
+      "type": "file",
+      "filename": "logs/error.log",
+      "alwaysIncludePattern": false,
+      "layout": { "type": "messagePassThrough" },
+      "category": "error"
+    }
+  },
+  "categories": {
+    "default": {
+        "appenders": [ "console"],
+  
+        "level": "info"
+      },
+    "send": {
+      "appenders": [ "send"],
+
+      "level": "info"
+    },
+    "recv": {
+        "appenders": [ "recv"],
+
+        "level": "info"
+      },
+    "error": {
+      "appenders": [ "error"],
+
+      "level": "error"
+    }
+  },
+  "replaceConsole": true
+}

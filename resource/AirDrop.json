@@ -1,0 +1,79 @@
+[
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "acceptOwnership",
+    "outputs": [],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_t",
+        "type": "address"
+      },
+      {
+        "name": "_to",
+        "type": "address[]"
+      },
+      {
+        "name": "_value",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "multiSend",
+    "outputs": [
+      {
+        "name": "_success",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "changeOwner",
+    "outputs": [],
+    "payable": false,
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "_prevOwner",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "_newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnerUpdate",
+    "type": "event"
+  }
+]
