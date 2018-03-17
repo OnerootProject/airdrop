@@ -1,7 +1,7 @@
 {
-  "name": "koa-demos",
+  "name": "airdrop",
   "version": "1.0.0",
-  "description": "a collection of simple demos of Koa",
+  "description": "airdrop RNT token",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,7 +9,7 @@
     "Koa",
     "Node"
   ],
-  "author": "Ruan Yifeng",
+  "author": "oneroot",
   "license": "ISC",
   "dependencies": {
     "async": "^2.6.0",
